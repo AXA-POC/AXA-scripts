@@ -1,0 +1,643 @@
+﻿<HTML>
+<HEAD>
+<META HTTP-EQUIV="charset" CONTENT="utf-8">
+<TITLE>Playback Log for AXA_RFT_POC_TestScript_Batch</TITLE>
+<STYLE TYPE="text/css">
+<!--
+  table caption {color: darkblue; font-size: x-large; font-weight: bold}
+  td {align: left; font-weight: bold}
+  td.fail {color: darkred; width: 10% }
+  td.warn {color: darkgoldenrod; width: 10% }
+  td.pass {color: darkgreen; width: 10% }
+  td.unkn {color: darkcyan; width: 10% }
+  td.info {width: 10% }
+  td.time {width: 30%; font-weight: normal}
+  td.note {align: left; font-weight: bold}
+  li {font-weight: normal}
+-->
+</STYLE>
+<SCRIPT>
+<!--
+function comparator(logDir,base,exp,act)
+{
+	try{
+		document.ComparatorApplet.startComparatorEx(base,exp,act,logDir);
+	}
+	catch(e){
+		alert("CRFCN0309E: Error creating the verification point display:\nCRFCN0310E: To view the verification point results, an enabled JRE (1.3.1_02 or later) must be associated with the browser");
+	}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<TABLE WIDTH="100%" border="1" rules="rows" summary="Log events">
+<SCRIPT>
+<!--
+if (self == top)
+	document.write('<CAPTION>Log: AXA_RFT_POC_TestScript_Batch</CAPTION>')
+//-->
+</SCRIPT>
+<TR>
+<TD>&nbsp;</TD>
+<TD CLASS="time">05-Oct-2017 04:47:21.790 AM</TD>
+<TD CLASS="note">Script start [AXA_RFT_POC_TestScript_Batch]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>1</LI>
+<LI><I>script_iter_count = </I>0</LI>
+<LI><I>dpStore = </I>{ host : 10.108.92.29 }, { terminalType : TN3270 }, { port : 992 }, { screenSize : 24x80 }, { tsoLogon : LOGON EMPOT18 }, { password : TEST }, { option1 : 3.1 }, { option2 : V }, { datasetName : 'EMPOT18.DEVOPS.JCLLIB(INS01RUN)' }, { commandSubmit : sub }, { commandSDSF : start m;5;st }, { commandInput : ST INS01RUN }, { ISPFoption : 3.4 }, { dsNameLevel : EMPOT18.DATAFILE.FINSMST* }</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>script_id = </I>AXA_RFT_POC_TestScript_Batch.java</LI>
+<LI><I>scriptDpName = </I>\TestDatapool_Batch.rftdp</LI>
+</UL>
+</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD CLASS="time">05-Oct-2017 04:47:21.868 AM</TD>
+<TD CLASS="note">Start application [Extension for Terminal Applications]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>name = </I>Extension for Terminal Applications</LI>
+<LI><I>line_number = </I>16</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>script_id = </I>AXA_RFT_POC_TestScript_Batch.java</LI>
+<LI><I>startapp_type = </I>EXECUTABLE</LI>
+<LI><I>startapp_executable = </I>javaw.exe</LI>
+<LI><I>startapp_working_directory = </I>C:\Program Files (x86)\IBM\SDP\jdk\jre\bin</LI>
+<LI><I>startapp_arguments = </I>-classpath "C:\Program Files\IBM\SDPShared\plugins\com.ibm.test.terminal_8.5.0.v20130730_1046\TerminalTester.jar;C:\Program Files\IBM\SDPShared\plugins\com.ibm.eNetwork.beans.HOD_11.0.8.201308271612\habeansnlv2.jar;C:\Program Files\IBM\SDPShared\plugins\org.eclipse.help.base_4.0.201.v20150204-1700.jar;hasslite.jar;icons.jar;ITLMToolkit.jar;jhall.jar;jlog.jar" com.ibm.terminal.tester.gui.panel.MainTerminalPanel </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:24.877 AM</TD>
+<TD CLASS="note">setText on the Text host</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>19</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>10.108.92.29 </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:26.007 AM</TD>
+<TD CLASS="note">select on the ComboBox terminalType</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>20</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>TN3270 </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:27.163 AM</TD>
+<TD CLASS="note">setText on the Text port</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>21</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>992 </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:28.250 AM</TD>
+<TD CLASS="note">select on the ComboBox screenSize</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>22</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>24x80 </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:29.360 AM</TD>
+<TD CLASS="note">click on the Button connectButton</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>23</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:32.137 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>26</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>LOGON EMPOT18 </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:33.164 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>27</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:35.361 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>28</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>TEST </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:36.391 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>29</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:39.421 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>31</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:41.776 AM</TD>
+<TD CLASS="note">setText on the Text ISPFoptionField1</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>34</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>3.1 </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:42.803 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>35</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:43.881 AM</TD>
+<TD CLASS="note">setText on the Text LibraryUtilityOptionField</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>36</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>V </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:44.946 AM</TD>
+<TD CLASS="note">setText on the Text datasetName</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>37</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>'EMPOT18.DEVOPS.JCLLIB(INS01RUN)' </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:45.973 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>38</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:48.996 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>40</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:50.956 AM</TD>
+<TD CLASS="note">setText on the Text commandField</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>43</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>sub </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:51.981 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>44</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR ID="vp0">
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:54.148 AM</TD>
+<TD CLASS="note">Verification point [submitVerification] passed.</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>vp_type = </I>object_property</LI>
+<LI><I>name = </I>submitVerification</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>line_number = </I>46</LI>
+<LI><I>script_id = </I>AXA_RFT_POC_TestScript_Batch.java</LI>
+<LI><I>baseline = </I>resources\AXA_RFT_POC_TestScript_Batch.submitVerification.base.rftvp</LI>
+<LI><I>expected = </I>AXA_RFT_POC_TestScript_Batch.0000.submitVerification.exp.rftvp</LI>
+<P><A HREF="javascript:comparator(decodeURI(document.URL),'resources/AXA_RFT_POC_TestScript_Batch.submitVerification.base.rftvp','AXA_RFT_POC_TestScript_Batch.0000.submitVerification.exp.rftvp',null)">View results</A>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:55.176 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>47</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:58.203 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>49</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:47:59.243 AM</TD>
+<TD CLASS="note">setText on the Text commandField</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>50</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>start m;5;st </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:00.271 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>51</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:02.856 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>52</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:03.921 AM</TD>
+<TD CLASS="note">setText on the Text commandInput</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>53</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>ST INS01RUN </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:04.946 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>54</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:06.021 AM</TD>
+<TD CLASS="note">setText on the Text leftField</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>55</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>s </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:07.051 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>56</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:08.406 AM</TD>
+<TD CLASS="note">setText on the Text SDSFoutputCommandInput</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>57</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>f 'MAXIMUM CONDITION CODE WAS 0' </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:09.436 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>58</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR ID="vp1">
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:11.471 AM</TD>
+<TD CLASS="note">Verification point [processingCompleteVerification] passed.</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>vp_type = </I>object_property</LI>
+<LI><I>name = </I>processingCompleteVerification</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>line_number = </I>60</LI>
+<LI><I>script_id = </I>AXA_RFT_POC_TestScript_Batch.java</LI>
+<LI><I>baseline = </I>resources\AXA_RFT_POC_TestScript_Batch.processingCompleteVerification.base.rftvp</LI>
+<LI><I>expected = </I>AXA_RFT_POC_TestScript_Batch.0000.processingCompleteVerification.exp.rftvp</LI>
+<P><A HREF="javascript:comparator(decodeURI(document.URL),'resources/AXA_RFT_POC_TestScript_Batch.processingCompleteVerification.base.rftvp','AXA_RFT_POC_TestScript_Batch.0000.processingCompleteVerification.exp.rftvp',null)">View results</A>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:12.493 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>64</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{F3} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:14.623 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>64</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{F3} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:16.313 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>64</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{F3} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:19.416 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>64</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{F3} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:20.526 AM</TD>
+<TD CLASS="note">setText on the Text ISPFoptionField1</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>67</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>3.4 </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:21.546 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>68</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:22.583 AM</TD>
+<TD CLASS="note">setText on the Text DsNameLevel</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>69</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>EMPOT18.DATAFILE.FINSMST* </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:23.606 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>70</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:25.736 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>74</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{TAB} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:27.863 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>75</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{TAB} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:29.991 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>76</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>v </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:31.011 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>77</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:33.141 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>78</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:35.271 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>79</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{F3} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:37.403 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>80</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{TAB} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:39.531 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>81</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>v </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:40.553 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>82</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:42.683 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>83</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{ENTER} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:44.816 AM</TD>
+<TD CLASS="note">inputKeys on the Frame Application</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>84</LI>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>additional_info = </I>{F3} </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="pass">Pass</TD>
+<TD CLASS="time">05-Oct-2017 04:48:44.816 AM</TD>
+<TD CLASS="note">Script end [AXA_RFT_POC_TestScript_Batch]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>script_name = </I>AXA_RFT_POC_TestScript_Batch</LI>
+<LI><I>script_id = </I>AXA_RFT_POC_TestScript_Batch.java</LI>
+</UL>
+</TD></TR>
+</TABLE>
+<APPLET ARCHIVE="http://localhost:9100/rational_ft_applets.jar" CODE="com/ibm/rational/test/ft/applets/HtmlLogComparatorApplet.class" NAME="ComparatorApplet" WIDTH=0 HEIGHT=0></APPLET>
+</BODY>
+</HTML>
